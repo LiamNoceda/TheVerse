@@ -1,5 +1,5 @@
 body {
-    background-color: #6f94b1;
+    background-color: #adbeca;
     font-family: Arial;
 }
 
@@ -7,13 +7,6 @@ p {
     color: #e3e3e3;
     width: 300;
     font-weight: normal;
-}
-
-.Slogan {
-    color: #e3e3e3;
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
 }
 
 h1 {
@@ -48,8 +41,8 @@ h4 {
     line-height: 30px;
 }
 
-h1 {
-    text-align: center;
+.G * {
+    text-align: left;
 }
 
 table, th, td {
@@ -73,4 +66,17 @@ table {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+a:hover {
+    color: rgb(129, 129, 192);
+}
+
+a:active {
+    color: powderblue;
+}
+
+#logo {
+    vertical-align: middle;
+    margin-left: 10px;
 }
