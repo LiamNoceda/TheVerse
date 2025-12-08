@@ -9,10 +9,19 @@ p {
     font-weight: normal;
 }
 
-h1 {
+h1 * {
     color: #003366;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.G img {
+    padding: 3px 3px 8px;
+}
+
+.G, h1 * {
+    margin-left: 80px;
 }
 
 h2 {
@@ -41,19 +50,6 @@ h4 {
     line-height: 30px;
 }
 
-.G * {
-    text-align: left;
-}
-
-table, th, td {
-    text-align: center;
-    color: #000;
-}
-
-table {
-    width: 200px;
-}
-
 .links a {
     text-align: center;
     text-decoration: none;
@@ -66,6 +62,7 @@ table {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
 
 a:hover {
@@ -79,4 +76,8 @@ a:active {
 #logo {
     vertical-align: middle;
     margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
 }
