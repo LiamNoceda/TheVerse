@@ -12,7 +12,7 @@ p {
 h1 * {
     color: #003366;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     text-align: left;
 }
 
@@ -21,38 +21,12 @@ h1 * {
 }
 
 .G, h1 * {
-    margin-left: 100px auto;
+    margin-left: 50px;
 }
 
 .slogan {
     font-size: larger;
-    margin-left: 40px;
-}
-
-h2 {
-    color: orange;
-    font-size: 40px;
-    font-weight: bold;
-    width: 400px;
-    text-align: center;
-    font-style: italic;
-}
-
-h3 {
-    color: black;
-    font-size: 30px;
-    font-weight: normal;
-    width: 300px;
-    text-align: center;
-}
-
-h4 {
-    color: gainsboro;
-     font-size: 20px;
-    font-weight: bold;
-    width: 200px;
-    text-align: center;
-    line-height: 30px;
+    margin-left: 30px;
 }
 
 .links a {
@@ -81,8 +55,4 @@ a:active {
 #logo {
     vertical-align: middle;
     margin-left: 10px;
-}
-
-ul {
-    list-style-type: none;
 }
