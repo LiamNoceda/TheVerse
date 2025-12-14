@@ -5,8 +5,9 @@
     margin-top: 20px;
 }
 
-.reg input, .reg button {
-    width: 20%;
+.reg input, 
+.reg button {
+    width: 100%;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -23,8 +24,10 @@
 .reg button:hover {
     background-color: #0056b3;
 }
+.reg button:active {
+    background-color: powderblue;
+}
 
 main {
-
     border: 1px solid black;
 }
