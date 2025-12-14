@@ -1,6 +1,22 @@
 body {
+    position: absolute;
+    left: 1px;
+    right: 1px;
     background-color: #adbeca;
     font-family: Arial;
+}
+
+.atmo {
+    display: flex;
+    min-height: 100vh;
+}
+
+.profile {
+    width: 100px;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
 }
 
 p {
@@ -26,7 +42,7 @@ h1 * {
 
 .slogan {
     font-size: larger;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .links a {
@@ -52,7 +68,7 @@ a:active {
     color: powderblue;
 }
 
-#logo {
+.logo {
     vertical-align: middle;
     margin-left: 10px;
 }
