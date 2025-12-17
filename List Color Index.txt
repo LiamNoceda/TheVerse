@@ -1,0 +1,17 @@
+.reg button:hover {
+    background-color: #0056b3;
+}
+
+.reg button:active {
+    background-color: powderblue / aliceblue;
+}
+
+.reg button {
+    background-color: #007bff;
+    color: white;
+}
+
+.reg input, 
+.reg button {
+    border: #ccc;
+}

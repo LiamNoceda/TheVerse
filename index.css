@@ -1,0 +1,33 @@
+.reg {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.reg input, 
+.reg button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.reg button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.reg button:hover {
+    background-color: #0056b3;
+}
+.reg button:active {
+    background-color: aliceblue;
+}
+
+main {
+    border: 1px solid black;
+}

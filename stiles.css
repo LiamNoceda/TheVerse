@@ -6,38 +6,22 @@ body {
     font-family: Arial;
 }
 
-.atmo {
-    display: flex;
-    min-height: 100vh;
-}
-
-.profile {
-    width: 100px;
-    padding: 20px;
-    border-right: 1px solid #ccc;
-    display: flex;
-    flex-direction: column;
-}
-
 p {
     color: #e3e3e3;
     width: 300;
     font-weight: normal;
 }
 
-h1 * {
+h1 {
     color: #003366;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
     text-align: left;
+    margin-left: 30px;
 }
 
 .G img {
     padding: 3px 3px 8px;
-}
-
-.G, h1 * {
-    margin-left: 50px;
 }
 
 .slogan {
@@ -46,18 +30,10 @@ h1 * {
 }
 
 .links a {
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     color: rgb(31, 63, 96);
     font-size: larger;
-}
-
-#video {
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
 }
 
 a:hover {
