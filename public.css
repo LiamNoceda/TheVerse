@@ -1,0 +1,30 @@
+.Public-space {
+    width: 280px;
+    padding: 15px;
+}
+
+.Public-list {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.Public-items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.Public-items:hover {
+    background: #1e2333;
+}
+
+.Public-items {
+    width: 36px;
+    height: 36px;
+}
