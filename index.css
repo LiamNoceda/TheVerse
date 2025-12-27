@@ -5,6 +5,10 @@
     margin-top: 20px;
 }
 
+.ro {
+    position: fixed;
+}
+
 .reg input, 
 .reg button {
     width: 100%;
