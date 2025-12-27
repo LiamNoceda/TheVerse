@@ -1,4 +1,4 @@
-Body - background-color: #6f94b1 blue first back; #adbeca new ver
+Body - background-color: #6f94b1 blue first back; #adbeca new ver; #F7F9Fc
 
 P, .AA - color: #e3e3e3 white
 
