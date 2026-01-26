@@ -1,8 +1,11 @@
-console.log("main.js загружен");
-
 fetch("/people")
   .then(res => res.json())
   .then(data => {
-      console.log("Данные с сервера:", data);
-  })
-  .catch(err => console.error("Ошибка fetch:", err));
+      const ul = document.getElementById("people");
+
+      data.forEach(person => {
+          const li = document.createElement("li");
+          li.textContent = person.name + " (" + person.status + ")";
+          ul.appendChild(li);
+      });
+  });
