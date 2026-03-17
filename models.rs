@@ -7,6 +7,7 @@ pub struct User {
     pub avatar_url: String,
 }
 
+#[allow(dead_code)]
 #[derive(Serialize)]
 pub struct Post {
     pub id: u64,
